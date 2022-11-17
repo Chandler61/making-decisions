@@ -133,7 +133,9 @@ if (changeMyMind === true) {
 
 ////////// PROBLEM 10 //////////
 // Using the "not" operator (!), change the current value of changeMyMind to true (it should currently be set to false due to the if-else statement in Problem 9). After you change the value of changeMyMind, console.log it's new value (it should now read true).
+changeMyMind = !changeMyMind
 
+console.log(changeMyMind)
 //CODE HERE
 
 ////////// ADVANCED PROBLEMS //////////
