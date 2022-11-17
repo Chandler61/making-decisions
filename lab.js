@@ -26,7 +26,7 @@ var brittanisBirthYear = 1986;
 */
 if (amysAge > brittanisAge){
   console.log("Amy is older")
-} else if {
+} else if (amysAge < brittanisAge) {
   console.log("Brittani is older")
 } else {
   console.log ("Same age")
@@ -123,7 +123,12 @@ while (score < passingScore) {
   Check to see if changeMyMind is set to true or false, if it is true, change the status to false, if it is false, change the status to true.
 
 */
-
+let changeMyMind = true 
+if (changeMyMind === true) {
+  console.log("False")
+} else if (changeMyMind === false) {
+  console.log("true")
+}
 //CODE HERE
 
 ////////// PROBLEM 10 //////////
